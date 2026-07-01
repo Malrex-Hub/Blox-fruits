@@ -1,0 +1,13 @@
+-- ts file was generated at discord.gg/25ms
+
+local fenv = getfenv()
+local _5 = loadstring(game:HttpGet('https://api.getpolsec.com/api/v1/ui.lua'))()
+
+fenv.ui = _5
+fenv.script_key = _5('7bad5e3679f40a89db9300800355a40cd92b70f3ca4c354ffe0e52444c6341fb')
+
+local _ = UDim.new
+local _ = UDim2.new
+local _ = fenv.Path2DControlPoint
+
+error("line 7: attempt to index nil with 'new'")
